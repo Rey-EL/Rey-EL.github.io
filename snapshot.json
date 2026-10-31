@@ -1,0 +1,412 @@
+{
+ "contract": "idris-os-state/v1",
+ "generated_at": "2026-10-31T18:23:24Z",
+ "operator": {
+  "id": "operator",
+  "name": "Operator",
+  "role": "Operator"
+ },
+ "conductor": {
+  "id": "conductor",
+  "name": "Idris",
+  "role": "Conductor",
+  "status": "failed",
+  "profile": {
+   "figure_asset": "idris-canonical.png",
+   "profile_locked": "2026-10-31",
+   "line": "Canonical figure · voice profile locked Oct 31, 2026"
+  }
+ },
+ "departments": [
+  {
+   "name": "Department 1",
+   "status": "watch"
+  },
+  {
+   "name": "Department 2",
+   "status": "attention"
+  },
+  {
+   "name": "Department 3",
+   "status": "healthy"
+  },
+  {
+   "name": "Department 4",
+   "status": "healthy"
+  },
+  {
+   "name": "Department 5",
+   "status": "failed"
+  },
+  {
+   "name": "Department 6",
+   "status": "attention"
+  },
+  {
+   "name": "Department 7",
+   "status": "healthy"
+  }
+ ],
+ "jobs": [
+  {
+   "name": "Job 1",
+   "status": "healthy"
+  },
+  {
+   "name": "Job 2",
+   "status": "healthy"
+  },
+  {
+   "name": "Job 3",
+   "status": "healthy"
+  },
+  {
+   "name": "Job 4",
+   "status": "healthy"
+  },
+  {
+   "name": "Job 5",
+   "status": "healthy"
+  },
+  {
+   "name": "Job 6",
+   "status": "healthy"
+  },
+  {
+   "name": "Job 7",
+   "status": "failed"
+  },
+  {
+   "name": "Job 8",
+   "status": "healthy"
+  }
+ ],
+ "goals": [
+  {
+   "title": "Goal 1",
+   "status": "healthy"
+  },
+  {
+   "title": "Goal 2",
+   "status": "healthy"
+  },
+  {
+   "title": "Goal 3",
+   "status": "attention"
+  },
+  {
+   "title": "Goal 4",
+   "status": "attention"
+  },
+  {
+   "title": "Goal 5",
+   "status": "healthy"
+  },
+  {
+   "title": "Goal 6",
+   "status": "healthy"
+  }
+ ],
+ "reelmint": {
+  "totals": {
+   "audience": 24,
+   "content": 22,
+   "legs": 6,
+   "liveLegs": 6,
+   "views": 355
+  },
+  "legs": [
+   {
+    "name": "Leg 1",
+    "status": "healthy"
+   },
+   {
+    "name": "Leg 2",
+    "status": "healthy"
+   },
+   {
+    "name": "Leg 3",
+    "status": "healthy"
+   },
+   {
+    "name": "Leg 4",
+    "status": "healthy"
+   },
+   {
+    "name": "Leg 5",
+    "status": "healthy"
+   },
+   {
+    "name": "Leg 6",
+    "status": "healthy"
+   }
+  ],
+  "ops": [
+   {
+    "status": "healthy",
+    "state": "on_track"
+   },
+   {
+    "status": "watch",
+    "state": "watch"
+   },
+   {
+    "status": "healthy",
+    "state": "on_track"
+   }
+  ]
+ },
+ "knowledge_core": {
+  "memory_files": 114,
+  "daily_logs": 47,
+  "people_pages": 55,
+  "group_pages": 4,
+  "goal_workspaces": 42,
+  "uap_census": {
+   "files_total": 6413,
+   "done": 6413,
+   "failed_final": 0,
+   "phase_verdict": "complete",
+   "status": "complete"
+  },
+  "epstein_pipeline": {
+   "phases_total": 18,
+   "phases_complete": 12,
+   "status": "watch",
+   "open_items_count": 6
+  },
+  "reelmint_content_items": 22,
+  "reelmint_views": 355,
+  "sources": [],
+  "collections": [
+   {
+    "label": "Collection 1",
+    "kind": "episodic",
+    "count": 47
+   },
+   {
+    "label": "Collection 2",
+    "kind": "semantic",
+    "count": 55
+   },
+   {
+    "label": "Collection 3",
+    "kind": "semantic",
+    "count": 4
+   },
+   {
+    "label": "Collection 4",
+    "kind": "semantic",
+    "count": 42
+   },
+   {
+    "label": "Collection 5",
+    "kind": "procedural",
+    "count": 21
+   },
+   {
+    "label": "Collection 6",
+    "kind": "corpus",
+    "count": 6413
+   },
+   {
+    "label": "Collection 7",
+    "kind": "corpus",
+    "count": 18
+   },
+   {
+    "label": "Collection 8",
+    "kind": "library",
+    "count": 22
+   }
+  ],
+  "commitments": [],
+  "commitments_count": 6
+ },
+ "exceptions": [
+  {
+   "label": "failed",
+   "status": "failed"
+  }
+ ],
+ "account": {
+  "waiting": [
+   {
+    "status": "waiting"
+   },
+   {
+    "status": "waiting"
+   },
+   {
+    "status": "waiting"
+   },
+   {
+    "status": "waiting"
+   }
+  ],
+  "handled": [
+   {
+    "status": "handled"
+   },
+   {
+    "status": "handled"
+   },
+   {
+    "status": "handled"
+   },
+   {
+    "status": "handled"
+   },
+   {
+    "status": "handled"
+   },
+   {
+    "status": "handled"
+   },
+   {
+    "status": "handled"
+   }
+  ],
+  "not_raised": [
+   {
+    "status": "not_raised",
+    "reason_class": "duplicate"
+   }
+  ],
+  "waiting_count": 4,
+  "handled_count": 7,
+  "not_raised_count": 1
+ },
+ "headline": {
+  "departments_total": 7,
+  "departments_healthy": 3,
+  "jobs_tracked": 8,
+  "jobs_failed": 1,
+  "goals_active": 6,
+  "exceptions_open": 4,
+  "knowledge_files": 114,
+  "autonomy_verified": 6,
+  "autonomy_unverified": 2
+ },
+ "defects": [],
+ "bench": {
+  "seats_total": 38,
+  "seats": [
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Beginner"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Intermediate"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   },
+   {
+    "tier": "Advanced"
+   }
+  ]
+ },
+ "public_variant": true
+}
