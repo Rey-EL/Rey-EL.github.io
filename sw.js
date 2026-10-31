@@ -1,16 +1,22 @@
-/* Idris OS app service worker — SOURCE OF RECORD, NOT SERVED by this
-   artifact: the platform's client staging requires exactly one JS
-   bundle in the built output, so a second .js file (a service worker)
-   cannot be published from this artifact (verified at Phase 6 build
-   time: the CVM client build fails with "expected exactly one JS
-   bundle" when sw.js is present in client/dist). The app still attempts
-   registration of ./sw.js at runtime and reports the outcome plainly in
-   its install panel; the offline fallback is carried by the app's
-   last-received-snapshot store instead. This file is kept ready to
-   serve unchanged if the platform gains a static-JS route.
-   Scope (when served): the directory this file is served from — the
-   artifact root — which covers the app route (/#/app) and the default
-   view.
+/* Idris OS app service worker — SERVED on the hosted origin. The static
+   hosted build of this client publishes this file beside index.html, and
+   the app surface registers ./sw.js at runtime and reports the outcome
+   plainly in its install panel. (Inside the artifact's own CVM publishing
+   pipeline it is still not served: client staging there requires exactly
+   one JS bundle — verified at Phase 6 build time — so on that origin the
+   offline fallback is carried by the app's last-received-snapshot store.)
+   Scope: the directory this file is served from, which covers the app
+   route (/#/app) and the default view.
+
+   Cache version: SHELL_CACHE is "idris-os-shell-v2". v2 exists to purge
+   the stale app shell cached from the first hosted build: the shell is
+   served cache-first, so a browser that installed the v1 worker kept
+   serving that build's index.html and bundle. On activate, every cache
+   other than the current SHELL_CACHE and SNAPSHOT_CACHE is deleted, so
+   "idris-os-shell-v1" is dropped the first time this worker activates.
+   Bump the version again whenever a hosted build must not be served from
+   an older shell cache, and keep the App.tsx fallback pruning step's
+   cache name in step with it.
 
    Strategy:
    - App shell and static assets (scripts, styles, images, icons, audio,
@@ -23,7 +29,7 @@
    This worker never fabricates a response: with nothing cached and no
    network, the request fails and the app shows its plain failure state. */
 
-var SHELL_CACHE = "idris-os-shell-v1";
+var SHELL_CACHE = "idris-os-shell-v2";
 var SNAPSHOT_CACHE = "idris-os-snapshot-v1";
 var SNAPSHOT_KEY = "./actions-last-snapshot";
 
