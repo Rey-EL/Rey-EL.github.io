@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="color-scheme" content="light dark" />
+    <!-- Phase 6 PWA machinery for the app surface (route #/app). The
+         manifest, service worker, icons, and greeting audio are static
+         files copied verbatim from client/public/ at build time so they
+         keep stable URLs. -->
+    <meta name="theme-color" content="#121212" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Idris OS" />
+    <!-- The manifest, apple-touch-icon, and favicon links are injected at
+         runtime by src/main.tsx: the bundler rewrites static link hrefs
+         in this file to hashed bundle assets, which would break the
+         stable URLs the PWA machinery requires. -->
+    <!-- Empty inline icon: stops the browser fetching /favicon.ico, which
+         lives outside the space's routes and fails auth. -->
+    <link rel="icon" href="data:," />
+    <title>Idris OS — Command View</title>
+    
+  <link rel="stylesheet" crossorigin href="./assets/index-151wm725.css"><script type="module" crossorigin src="./assets/index-xt5e1faw.js"></script></head>
+  <body>
+    <div
+      data-generated-space-root=""
+      data-generated-space-slug="idris-os-command-view"
+    ></div>
+  </body>
+</html>
