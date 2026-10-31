@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-10-31T19:08:30Z",
+ "generated_at": "2026-10-31T19:24:25Z",
  "operator": {
   "id": "operator",
   "name": "Operator",
@@ -110,10 +110,10 @@
  "reelmint": {
   "totals": {
    "audience": 24,
-   "content": 23,
+   "content": 24,
    "legs": 6,
    "liveLegs": 6,
-   "views": 358
+   "views": 359
   },
   "legs": [
    {
@@ -175,8 +175,8 @@
    "status": "watch",
    "open_items_count": 6
   },
-  "reelmint_content_items": 23,
-  "reelmint_views": 358,
+  "reelmint_content_items": 24,
+  "reelmint_views": 359,
   "sources": [],
   "collections": [
    {
@@ -217,7 +217,7 @@
    {
     "label": "Collection 8",
     "kind": "library",
-    "count": 23
+    "count": 24
    }
   ],
   "commitments": [],
