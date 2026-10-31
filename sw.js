@@ -8,12 +8,14 @@
    Scope: the directory this file is served from, which covers the app
    route (/#/app) and the default view.
 
-   Cache version: SHELL_CACHE is "idris-os-shell-v2". v2 exists to purge
-   the stale app shell cached from the first hosted build: the shell is
-   served cache-first, so a browser that installed the v1 worker kept
-   serving that build's index.html and bundle. On activate, every cache
-   other than the current SHELL_CACHE and SNAPSHOT_CACHE is deleted, so
-   "idris-os-shell-v1" is dropped the first time this worker activates.
+   Cache version: SHELL_CACHE is "idris-os-shell-v3". v3 exists to purge
+   the app shell cached from the previous hosted build (the
+   greeting-button-removal build), as v2 did for the first hosted build:
+   the shell is served cache-first, so a browser that installed an older
+   worker keeps serving that build's index.html and bundle. On activate,
+   every cache other than the current SHELL_CACHE and SNAPSHOT_CACHE is
+   deleted, so "idris-os-shell-v2" (and any remaining "idris-os-shell-v1")
+   is dropped the first time this worker activates.
    Bump the version again whenever a hosted build must not be served from
    an older shell cache, and keep the App.tsx fallback pruning step's
    cache name in step with it.
@@ -29,7 +31,7 @@
    This worker never fabricates a response: with nothing cached and no
    network, the request fails and the app shows its plain failure state. */
 
-var SHELL_CACHE = "idris-os-shell-v2";
+var SHELL_CACHE = "idris-os-shell-v3";
 var SNAPSHOT_CACHE = "idris-os-snapshot-v1";
 var SNAPSHOT_KEY = "./actions-last-snapshot";
 
