@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-10-31T19:38:39Z",
+ "generated_at": "2026-10-31T19:54:13Z",
  "operator": {
   "id": "operator",
   "name": "Operator",
@@ -161,7 +161,7 @@
   "daily_logs": 47,
   "people_pages": 56,
   "group_pages": 4,
-  "goal_workspaces": 42,
+  "goal_workspaces": 43,
   "uap_census": {
    "files_total": 6413,
    "done": 6413,
@@ -197,7 +197,7 @@
    {
     "label": "Collection 4",
     "kind": "semantic",
-    "count": 42
+    "count": 43
    },
    {
     "label": "Collection 5",
