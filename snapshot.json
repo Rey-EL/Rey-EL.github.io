@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-01T06:53:44Z",
+ "generated_at": "2026-11-01T07:09:24Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -164,10 +164,10 @@
   "goal_workspaces": 44,
   "uap_census": {
    "files_total": 6438,
-   "done": 6437,
+   "done": 6438,
    "failed_final": 0,
-   "phase_verdict": "in_progress",
-   "status": "watch"
+   "phase_verdict": "complete",
+   "status": "complete"
   },
   "epstein_pipeline": {
    "phases_total": 18,
