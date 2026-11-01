@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-01T22:54:18Z",
+ "generated_at": "2026-11-01T23:08:24Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -40,7 +40,7 @@
   },
   {
    "name": "Department 6",
-   "status": "attention"
+   "status": "healthy"
   },
   {
    "name": "Department 7",
@@ -92,7 +92,7 @@
   },
   {
    "title": "Goal 3",
-   "status": "attention"
+   "status": "healthy"
   },
   {
    "title": "Goal 4",
@@ -163,8 +163,8 @@
   "group_pages": 4,
   "goal_workspaces": 44,
   "uap_census": {
-   "files_total": 6589,
-   "done": 6589,
+   "files_total": 6592,
+   "done": 6592,
    "failed_final": 0,
    "phase_verdict": "complete",
    "status": "complete"
@@ -207,7 +207,7 @@
    {
     "label": "Collection 6",
     "kind": "corpus",
-    "count": 6589
+    "count": 6592
    },
    {
     "label": "Collection 7",
@@ -231,9 +231,6 @@
  ],
  "account": {
   "waiting": [
-   {
-    "status": "waiting"
-   },
    {
     "status": "waiting"
    },
@@ -270,17 +267,17 @@
     "reason_class": "duplicate"
    }
   ],
-  "waiting_count": 3,
+  "waiting_count": 2,
   "handled_count": 7,
   "not_raised_count": 1
  },
  "headline": {
   "departments_total": 7,
-  "departments_healthy": 4,
+  "departments_healthy": 5,
   "jobs_tracked": 8,
   "jobs_failed": 1,
   "goals_active": 6,
-  "exceptions_open": 3,
+  "exceptions_open": 2,
   "knowledge_files": 117,
   "autonomy_verified": 6,
   "autonomy_unverified": 2
