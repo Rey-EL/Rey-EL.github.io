@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-01T17:53:23Z",
+ "generated_at": "2026-11-01T18:09:01Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -24,7 +24,7 @@
   },
   {
    "name": "Department 2",
-   "status": "healthy"
+   "status": "attention"
   },
   {
    "name": "Department 3",
@@ -96,7 +96,7 @@
   },
   {
    "title": "Goal 4",
-   "status": "healthy"
+   "status": "attention"
   },
   {
    "title": "Goal 5",
@@ -164,10 +164,10 @@
   "goal_workspaces": 44,
   "uap_census": {
    "files_total": 6450,
-   "done": 6441,
+   "done": 6450,
    "failed_final": 0,
-   "phase_verdict": "in_progress",
-   "status": "watch"
+   "phase_verdict": "complete",
+   "status": "complete"
   },
   "epstein_pipeline": {
    "phases_total": 18,
@@ -239,6 +239,9 @@
    },
    {
     "status": "waiting"
+   },
+   {
+    "status": "waiting"
    }
   ],
   "handled": [
@@ -270,17 +273,17 @@
     "reason_class": "duplicate"
    }
   ],
-  "waiting_count": 3,
+  "waiting_count": 4,
   "handled_count": 7,
   "not_raised_count": 1
  },
  "headline": {
   "departments_total": 7,
-  "departments_healthy": 4,
+  "departments_healthy": 3,
   "jobs_tracked": 8,
   "jobs_failed": 1,
   "goals_active": 6,
-  "exceptions_open": 3,
+  "exceptions_open": 4,
   "knowledge_files": 117,
   "autonomy_verified": 6,
   "autonomy_unverified": 2
