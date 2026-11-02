@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-02T23:39:23Z",
+ "generated_at": "2026-11-02T23:53:47Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -202,7 +202,7 @@
    {
     "label": "Collection 5",
     "kind": "procedural",
-    "count": 23
+    "count": 24
    },
    {
     "label": "Collection 6",
