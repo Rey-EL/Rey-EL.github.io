@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-03T03:46:30Z",
+ "generated_at": "2026-11-03T03:54:29Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -10,7 +10,7 @@
   "id": "conductor",
   "name": "Idris",
   "role": "Conductor",
-  "status": "attention",
+  "status": "watch",
   "profile": {
    "figure_asset": "idris-canonical.png",
    "profile_locked": "2026-10-31",
@@ -40,7 +40,7 @@
   },
   {
    "name": "Department 6",
-   "status": "attention"
+   "status": "healthy"
   },
   {
    "name": "Department 7",
@@ -92,7 +92,7 @@
   },
   {
    "title": "Goal 3",
-   "status": "attention"
+   "status": "healthy"
   },
   {
    "title": "Goal 4",
@@ -225,15 +225,12 @@
  },
  "exceptions": [
   {
-   "label": "attention",
-   "status": "attention"
+   "label": "watch",
+   "status": "watch"
   }
  ],
  "account": {
   "waiting": [
-   {
-    "status": "waiting"
-   },
    {
     "status": "waiting"
    }
@@ -265,17 +262,17 @@
    }
   ],
   "not_raised": [],
-  "waiting_count": 2,
+  "waiting_count": 1,
   "handled_count": 8,
   "not_raised_count": 0
  },
  "headline": {
   "departments_total": 7,
-  "departments_healthy": 5,
+  "departments_healthy": 6,
   "jobs_tracked": 8,
   "jobs_failed": 0,
   "goals_active": 6,
-  "exceptions_open": 2,
+  "exceptions_open": 1,
   "knowledge_files": 120,
   "autonomy_verified": 6,
   "autonomy_unverified": 2
