@@ -1,0 +1,35 @@
+<!doctype html>
+<!--
+  Verify — app shell (WP1, WP2). Static markup only: no inline script, no inline style,
+  no inline event handler (strict CSP, WP13). The <noscript> line is the only visible
+  text in this file; it is the one string that cannot go through the string table
+  because the string table needs JavaScript. It is recorded in the WP12 coverage report.
+-->
+<html lang="en" data-text-size="normal">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Verify</title>
+  <meta name="description" content="Verify Before You Send: five checks before you send crypto. An educational tool, not financial advice.">
+  <meta name="theme-color" content="#121212">
+  <meta name="color-scheme" content="dark">
+  <meta name="referrer" content="no-referrer">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Verify">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="48x48" href="icons/icon-48.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/app.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <img src="icons/icon-96.png" width="40" height="40" alt="" class="mark">
+    <span class="app-name">Verify</span>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <noscript><p class="noscript">Verify needs JavaScript turned on to run its checks on this device.</p></noscript>
+</body>
+</html>
