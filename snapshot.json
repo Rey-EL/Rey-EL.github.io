@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-10T21:08:09Z",
+ "generated_at": "2026-11-10T21:23:28Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -112,13 +112,13 @@
    "audience": 26,
    "content": 44,
    "legs": 6,
-   "liveLegs": 2,
+   "liveLegs": 3,
    "views": 473
   },
   "legs": [
    {
     "name": "Leg 1",
-    "status": "watch"
+    "status": "healthy"
    },
    {
     "name": "Leg 2",
