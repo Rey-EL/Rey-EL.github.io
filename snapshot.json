@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-10T05:53:22Z",
+ "generated_at": "2026-11-10T06:09:00Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -161,7 +161,7 @@
   "daily_logs": 57,
   "people_pages": 60,
   "group_pages": 4,
-  "goal_workspaces": 52,
+  "goal_workspaces": 54,
   "uap_census": {
    "files_total": 6592,
    "done": 6592,
@@ -197,7 +197,7 @@
    {
     "label": "Collection 4",
     "kind": "semantic",
-    "count": 52
+    "count": 54
    },
    {
     "label": "Collection 5",
