@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-12T00:09:21Z",
+ "generated_at": "2026-11-12T00:24:58Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -261,10 +261,15 @@
     "status": "handled"
    }
   ],
-  "not_raised": [],
+  "not_raised": [
+   {
+    "status": "not_raised",
+    "reason_class": "duplicate"
+   }
+  ],
   "waiting_count": 2,
   "handled_count": 7,
-  "not_raised_count": 0
+  "not_raised_count": 1
  },
  "headline": {
   "departments_total": 7,
