@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-12T23:54:23Z",
+ "generated_at": "2026-11-13T00:09:02Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -10,7 +10,7 @@
   "id": "conductor",
   "name": "Idris",
   "role": "Conductor",
-  "status": "failed",
+  "status": "watch",
   "profile": {
    "figure_asset": "idris-canonical.png",
    "profile_locked": "2026-10-31",
@@ -44,7 +44,7 @@
   },
   {
    "name": "Department 7",
-   "status": "failed"
+   "status": "healthy"
   }
  ],
  "jobs": [
@@ -78,7 +78,7 @@
   },
   {
    "name": "Job 8",
-   "status": "failed"
+   "status": "healthy"
   }
  ],
  "goals": [
@@ -225,15 +225,12 @@
  },
  "exceptions": [
   {
-   "label": "failed",
-   "status": "failed"
+   "label": "watch",
+   "status": "watch"
   }
  ],
  "account": {
   "waiting": [
-   {
-    "status": "waiting"
-   },
    {
     "status": "waiting"
    }
@@ -259,25 +256,23 @@
    },
    {
     "status": "handled"
-   }
-  ],
-  "not_raised": [
+   },
    {
-    "status": "not_raised",
-    "reason_class": "duplicate"
+    "status": "handled"
    }
   ],
-  "waiting_count": 2,
-  "handled_count": 7,
-  "not_raised_count": 1
+  "not_raised": [],
+  "waiting_count": 1,
+  "handled_count": 8,
+  "not_raised_count": 0
  },
  "headline": {
   "departments_total": 7,
-  "departments_healthy": 5,
+  "departments_healthy": 6,
   "jobs_tracked": 8,
-  "jobs_failed": 1,
+  "jobs_failed": 0,
   "goals_active": 6,
-  "exceptions_open": 2,
+  "exceptions_open": 1,
   "knowledge_files": 131,
   "autonomy_verified": 6,
   "autonomy_unverified": 2
