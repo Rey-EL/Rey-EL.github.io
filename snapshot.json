@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-19T04:54:16Z",
+ "generated_at": "2026-11-19T05:08:54Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -221,7 +221,7 @@
    }
   ],
   "commitments": [],
-  "commitments_count": 21
+  "commitments_count": 19
  },
  "exceptions": [
   {
