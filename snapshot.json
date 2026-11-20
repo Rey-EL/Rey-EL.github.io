@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-20T21:54:03Z",
+ "generated_at": "2026-11-20T22:08:22Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -143,16 +143,12 @@
   ],
   "ops": [
    {
-    "status": "healthy",
-    "state": "on_track"
+    "status": "unknown",
+    "state": "done"
    },
    {
     "status": "watch",
     "state": "watch"
-   },
-   {
-    "status": "healthy",
-    "state": "on_track"
    }
   ]
  },
