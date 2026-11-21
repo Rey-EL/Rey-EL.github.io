@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-21T21:23:28Z",
+ "generated_at": "2026-11-21T22:39:32Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -109,11 +109,11 @@
  ],
  "reelmint": {
   "totals": {
-   "audience": 33,
-   "content": 55,
-   "legs": 6,
-   "liveLegs": 6,
-   "views": 2371
+   "audience": 29,
+   "content": 48,
+   "legs": 5,
+   "liveLegs": 5,
+   "views": 2373
   },
   "legs": [
    {
@@ -130,14 +130,10 @@
    },
    {
     "name": "Leg 4",
-    "status": "watch"
-   },
-   {
-    "name": "Leg 5",
     "status": "healthy"
    },
    {
-    "name": "Leg 6",
+    "name": "Leg 5",
     "status": "healthy"
    }
   ],
@@ -149,6 +145,18 @@
    {
     "status": "watch",
     "state": "watch"
+   },
+   {
+    "status": "watch",
+    "state": "watch"
+   },
+   {
+    "status": "unknown",
+    "state": "done"
+   },
+   {
+    "status": "unknown",
+    "state": "done"
    }
   ]
  },
@@ -171,8 +179,8 @@
    "status": "watch",
    "open_items_count": 6
   },
-  "reelmint_content_items": 55,
-  "reelmint_views": 2371,
+  "reelmint_content_items": 48,
+  "reelmint_views": 2373,
   "sources": [],
   "collections": [
    {
@@ -213,7 +221,7 @@
    {
     "label": "Collection 8",
     "kind": "library",
-    "count": 55
+    "count": 48
    }
   ],
   "commitments": [],
@@ -227,6 +235,9 @@
  ],
  "account": {
   "waiting": [
+   {
+    "status": "waiting"
+   },
    {
     "status": "waiting"
    },
@@ -258,7 +269,7 @@
    }
   ],
   "not_raised": [],
-  "waiting_count": 2,
+  "waiting_count": 3,
   "handled_count": 7,
   "not_raised_count": 0
  },
@@ -268,7 +279,7 @@
   "jobs_tracked": 8,
   "jobs_failed": 1,
   "goals_active": 6,
-  "exceptions_open": 2,
+  "exceptions_open": 3,
   "knowledge_files": 155,
   "autonomy_verified": 6,
   "autonomy_unverified": 2
