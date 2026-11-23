@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-23T07:07:53Z",
+ "generated_at": "2026-11-23T07:28:18Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -24,7 +24,7 @@
   },
   {
    "name": "Department 2",
-   "status": "healthy"
+   "status": "attention"
   },
   {
    "name": "Department 3",
@@ -84,7 +84,7 @@
   },
   {
    "title": "Goal 3",
-   "status": "healthy"
+   "status": "attention"
   }
  ],
  "reelmint": {
@@ -197,7 +197,7 @@
    }
   ],
   "commitments": [],
-  "commitments_count": 20
+  "commitments_count": 18
  },
  "exceptions": [
   {
@@ -207,6 +207,9 @@
  ],
  "account": {
   "waiting": [
+   {
+    "status": "waiting"
+   },
    {
     "status": "waiting"
    },
@@ -240,17 +243,17 @@
     "reason_class": "duplicate"
    }
   ],
-  "waiting_count": 2,
+  "waiting_count": 3,
   "handled_count": 6,
   "not_raised_count": 1
  },
  "headline": {
   "departments_total": 6,
-  "departments_healthy": 4,
+  "departments_healthy": 3,
   "jobs_tracked": 7,
   "jobs_failed": 1,
   "goals_active": 3,
-  "exceptions_open": 2,
+  "exceptions_open": 3,
   "knowledge_files": 158,
   "autonomy_verified": 5,
   "autonomy_unverified": 2
