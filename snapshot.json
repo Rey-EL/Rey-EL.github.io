@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-23T02:23:20Z",
+ "generated_at": "2026-11-23T03:12:03Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -36,7 +36,7 @@
   },
   {
    "name": "Department 5",
-   "status": "failed"
+   "status": "healthy"
   },
   {
    "name": "Department 6",
@@ -62,18 +62,14 @@
   },
   {
    "name": "Job 5",
-   "status": "healthy"
+   "status": "failed"
   },
   {
    "name": "Job 6",
-   "status": "failed"
+   "status": "healthy"
   },
   {
    "name": "Job 7",
-   "status": "failed"
-  },
-  {
-   "name": "Job 8",
    "status": "healthy"
   }
  ],
@@ -97,7 +93,7 @@
    "content": 42,
    "legs": 5,
    "liveLegs": 5,
-   "views": 2357
+   "views": 2358
   },
   "legs": [
    {
@@ -156,7 +152,7 @@
    "open_items_count": 6
   },
   "reelmint_content_items": 42,
-  "reelmint_views": 2357,
+  "reelmint_views": 2358,
   "sources": [],
   "collections": [
    {
@@ -216,9 +212,6 @@
    },
    {
     "status": "waiting"
-   },
-   {
-    "status": "waiting"
    }
   ],
   "handled": [
@@ -241,20 +234,25 @@
     "status": "handled"
    }
   ],
-  "not_raised": [],
-  "waiting_count": 3,
+  "not_raised": [
+   {
+    "status": "not_raised",
+    "reason_class": "duplicate"
+   }
+  ],
+  "waiting_count": 2,
   "handled_count": 6,
-  "not_raised_count": 0
+  "not_raised_count": 1
  },
  "headline": {
   "departments_total": 6,
-  "departments_healthy": 3,
-  "jobs_tracked": 8,
-  "jobs_failed": 2,
+  "departments_healthy": 4,
+  "jobs_tracked": 7,
+  "jobs_failed": 1,
   "goals_active": 3,
-  "exceptions_open": 3,
+  "exceptions_open": 2,
   "knowledge_files": 158,
-  "autonomy_verified": 6,
+  "autonomy_verified": 5,
   "autonomy_unverified": 2
  },
  "defects": [],
