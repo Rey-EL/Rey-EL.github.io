@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-25T22:09:16Z",
+ "generated_at": "2026-11-25T22:53:27Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -20,7 +20,7 @@
  "departments": [
   {
    "name": "Department 1",
-   "status": "watch"
+   "status": "unknown"
   },
   {
    "name": "Department 2",
@@ -93,7 +93,7 @@
    "content": 42,
    "legs": 5,
    "liveLegs": 5,
-   "views": 2204
+   "views": 2205
   },
   "legs": [
    {
@@ -123,8 +123,8 @@
     "state": "done"
    },
    {
-    "status": "watch",
-    "state": "watch"
+    "status": "unknown",
+    "state": "done"
    },
    {
     "status": "unknown",
@@ -152,7 +152,7 @@
    "open_items_count": 6
   },
   "reelmint_content_items": 42,
-  "reelmint_views": 2204,
+  "reelmint_views": 2205,
   "sources": [],
   "collections": [
    {
@@ -209,9 +209,6 @@
   "waiting": [
    {
     "status": "waiting"
-   },
-   {
-    "status": "waiting"
    }
   ],
   "handled": [
@@ -240,7 +237,7 @@
     "reason_class": "duplicate"
    }
   ],
-  "waiting_count": 2,
+  "waiting_count": 1,
   "handled_count": 6,
   "not_raised_count": 1
  },
@@ -250,7 +247,7 @@
   "jobs_tracked": 7,
   "jobs_failed": 1,
   "goals_active": 3,
-  "exceptions_open": 2,
+  "exceptions_open": 1,
   "knowledge_files": 168,
   "autonomy_verified": 5,
   "autonomy_unverified": 2
