@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-25T21:53:43Z",
+ "generated_at": "2026-11-25T22:09:16Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -90,10 +90,10 @@
  "reelmint": {
   "totals": {
    "audience": 29,
-   "content": 44,
+   "content": 42,
    "legs": 5,
    "liveLegs": 5,
-   "views": 2459
+   "views": 2204
   },
   "legs": [
    {
@@ -151,8 +151,8 @@
    "status": "watch",
    "open_items_count": 6
   },
-  "reelmint_content_items": 44,
-  "reelmint_views": 2459,
+  "reelmint_content_items": 42,
+  "reelmint_views": 2204,
   "sources": [],
   "collections": [
    {
@@ -193,7 +193,7 @@
    {
     "label": "Collection 8",
     "kind": "library",
-    "count": 44
+    "count": 42
    }
   ],
   "commitments": [],
