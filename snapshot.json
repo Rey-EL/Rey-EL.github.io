@@ -1,6 +1,6 @@
 {
  "contract": "idris-os-state/v1",
- "generated_at": "2026-11-27T18:53:32Z",
+ "generated_at": "2026-11-27T19:23:15Z",
  "operator": {
   "id": "operator",
   "name": "Birdman",
@@ -20,7 +20,7 @@
  "departments": [
   {
    "name": "Department 1",
-   "status": "watch"
+   "status": "unknown"
   },
   {
    "name": "Department 2",
@@ -102,7 +102,7 @@
    },
    {
     "name": "Leg 2",
-    "status": "watch"
+    "status": "healthy"
    },
    {
     "name": "Leg 3",
